@@ -9,3 +9,6 @@ sc:
 
 dist:
 	$(CXX) $(CXXFLAGS) main.cpp -o main
+
+clean:
+	rm -f main sc
