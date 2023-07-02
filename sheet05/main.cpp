@@ -45,7 +45,7 @@ int main() {
                 }
             };
             auto end_time = std::chrono::high_resolution_clock::now();
-            auto time = (end_time - start_time) / std::chrono::nanoseconds(1);
+            auto time = (end_time - start_time) / std::chrono::microseconds(1);
             times[k] = time;
         }
 
